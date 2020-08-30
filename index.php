@@ -11,8 +11,14 @@
 				<div class="ui left close dividing rail" style="width: 200px !important; top: 3rem;">
 					<div class="sticky" style="position: sticky; top: 6rem; z-index: inherit !important;">
 						<div class="ui vertical text menu" style="width: inherit;">
-							<div class="header item">Indstillinger</div>
-							<a class="item" href="#info">Brugeroplysninger</a>
+							<div class="header item">
+								<i class="setting icon"></i>
+								Indstillinger
+							</div>
+							<a class="item" href="#info">
+								<i class="user icon"></i>
+								Brugeroplysninger
+							</a>
 						</div>
 					</div>
 				</div>
@@ -21,10 +27,16 @@
 					<h1 class="ui header">
 						Brugeroplysninger
 					</h1>
-					<div>
-						<h2 class="ui header">Skift adgangskode</h2>
-						<p>Du skal have adgang til din mailadresse du oprettede en bruger med for at skifte adgangskode.</p>
-						<button class="ui right floated disabled button">Skift Adgangskode</button>
+					<div class="ui grid">
+						<div class="row">
+							<div class="ten wide column">
+								<h3 class="header">Skift adgangskode</h3>
+								<p>Du skal have adgang til din mailadresse du oprettede en bruger med for at skifte adgangskode.</p>
+							</div>
+							<div class="ui six wide column">
+								<button class="ui right floated disabled button">Skift Adgangskode</button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
